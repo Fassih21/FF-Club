@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "fitness-fighter-club",
+  "name": "fitness-fighterr-club",
   "compatibility_date": "2026-06-19",
   "observability": {
     "enabled": true
