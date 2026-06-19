@@ -11,7 +11,7 @@ export const Route = createFileRoute("/services")({
       { title: "Training — Kickboxing, Gymnastics & Fitness | Fitness Fighter Club" },
       { name: "description", content: "Explore training programs at Fitness Fighter Club, Lahore — kickboxing, gymnastics, kids martial arts and adult conditioning. Coach-led every evening." },
       { property: "og:title", content: "Training at Fitness Fighter Club" },
-      { property: "og:description", content: "Kickboxing, gymnastics, kids martial arts and adult conditioning in Gulfishan Colony, Lahore." },
+      { property: "og:description", content: "Kickboxing, gymnastics, kids martial arts and adult conditioning in Samnabad, Lahore." },
       { property: "og:image", content: glovesImg },
     ],
   }),
@@ -57,7 +57,7 @@ function ServicesPage() {
           </div>
           <p className="md:col-span-5 self-end text-base leading-relaxed text-muted-foreground">
             Every program is coach-led, beginner-friendly, and runs every evening
-            from 8 PM at our Gulfishan Colony location. New to training?
+            from 8 PM at our Samnabad location. New to training?
             Start with a trial class — we'll guide the rest.
           </p>
         </div>

@@ -7,10 +7,10 @@ import glovesImg from "@/assets/gloves.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Fitness Fighter Club — Kickboxing & Fitness, Gulfishan Lahore" },
-      { name: "description", content: "Coach-led kickboxing, gymnastics and fitness training for kids and adults at Gulfishan Colony, Lahore. Rated 4.8★ on Google. Walk in tonight at 8 PM." },
-      { property: "og:title", content: "Fitness Fighter Club — Lahore" },
-      { property: "og:description", content: "Train hard. Hit harder. Kickboxing, gymnastics and fitness in Gulfishan Colony, Lahore." },
+      { title: "Shark Karate Gymnastic & Fitness Academy — Kickboxing & Fitness, Samnabad Lahore" },
+      { name: "description", content: "Coach-led kickboxing, gymnastics and fitness training for kids and adults at Samnabad, Lahore. Rated 4.8★ on Google. Walk in tonight at 8 PM." },
+      { property: "og:title", content: "Shark Karate Gymnastic & Fitness Academy — Lahore" },
+      { property: "og:description", content: "Train hard. Hit harder. Kickboxing, gymnastics and fitness in Samnabad, Lahore." },
       { property: "og:image", content: heroImg },
       { name: "twitter:image", content: heroImg },
     ],
@@ -31,7 +31,7 @@ function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.14_0.02_40/0.92)] via-[oklch(0.14_0.02_40/0.7)] to-[oklch(0.14_0.02_40/0.35)]" aria-hidden />
         <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-24 md:py-36 lg:py-44">
           <div className="max-w-2xl fade-up text-[oklch(0.97_0.01_80)]">
-            <p className="tag text-[oklch(0.85_0.12_30)]">EST. LAHORE · GULFISHAN COLONY</p>
+            <p className="tag text-[oklch(0.85_0.12_30)]">EST. LAHORE · Samnabad</p>
             <h1 className="mt-4 text-5xl sm:text-6xl md:text-7xl">
               {BUSINESS.tagline.split(".").map((part, i) =>
                 part.trim() ? (
@@ -83,7 +83,7 @@ function HomePage() {
         </div>
         <div className="md:col-span-7 space-y-5 text-base leading-relaxed text-muted-foreground">
           <p>
-            Fitness Fighter Club started inside Gulfishan Colony Children's Park
+            Shark Karate Gymnastic & Fitness Academy started inside Samnabad
             with a simple mission — give the kids and families of our
             neighbourhood a place to channel their energy into something
             that builds character.
@@ -210,7 +210,7 @@ const WHY = [
   { title: "Coach who shows up", body: "Our instructor runs every evening session personally. Same face, same standards." },
   { title: "Kids welcome", body: "Structured classes for younger fighters — discipline, fitness and respect first." },
   { title: "Adults can join", body: "No 'too late, too old.' Beginners get a proper foundation, fighters get sparring." },
-  { title: "Community-first", body: "We're rooted in Gulfishan Colony. Affordable, neighbourly and serious about training." },
+  { title: "Community-first", body: "We're rooted in Samnabad. Affordable, neighbourly and serious about training." },
 ];
 
 const REVIEWS = [

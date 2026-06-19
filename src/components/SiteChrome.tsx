@@ -18,7 +18,7 @@ export function SiteHeader() {
             FF
           </span>
           <span className="font-display text-lg tracking-wide">
-            Fitness Fighter <span className="text-primary">Club</span>
+            Shark Karate Gymnastic & Fitness Academy <span className="text-primary"></span>
           </span>
         </Link>
 
@@ -90,7 +90,7 @@ export function SiteFooter() {
         <div>
           <div className="flex items-center gap-3">
             <span className="flex h-9 w-9 items-center justify-center rounded-sm bg-primary text-primary-foreground font-display">FF</span>
-            <span className="font-display text-lg">Fitness Fighter Club</span>
+            <span className="font-display text-lg">Shark Karate Gymnastic & Fitness Academy</span>
           </div>
           <p className="mt-4 max-w-xs text-sm text-[oklch(0.78_0.012_70)]">
             {BUSINESS.shortDesc}
@@ -113,7 +113,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-5 py-5 text-xs text-[oklch(0.7_0.01_70)] sm:flex-row">
-          <span>© {new Date().getFullYear()} Fitness Fighter Club, Lahore.</span>
+          <span>© {new Date().getFullYear()} Shark Karate Gymnastic & Fitness Academy, Lahore.</span>
           <span>Rated {BUSINESS.rating.value}★ by {BUSINESS.rating.count} members on Google.</span>
         </div>
       </div>

@@ -4,10 +4,10 @@ import { BUSINESS, waLink } from "@/lib/business";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Visit & Contact — Fitness Fighter Club, Gulfishan Lahore" },
-      { name: "description", content: "Find Fitness Fighter Club at Gulfishan Colony Children's Park, Lahore. Hours, directions, phone and WhatsApp." },
-      { property: "og:title", content: "Visit Fitness Fighter Club, Lahore" },
-      { property: "og:description", content: "Address, hours, map and WhatsApp contact for Fitness Fighter Club in Gulfishan Colony, Lahore." },
+      { title: "Visit & Contact — Shark Karate Gymnastic & Fitness Academy, Samnabad Lahore" },
+      { name: "description", content: "Find Shark Karate Gymnastic & Fitness Academy at Samnabad Children's Park, Lahore. Hours, directions, phone and WhatsApp." },
+      { property: "og:title", content: "Visit Shark Karate Gymnastic & Fitness Academy, Lahore" },
+      { property: "og:description", content: "Address, hours, map and WhatsApp contact for Shark Karate Gymnastic & Fitness Academy in Samnabad, Lahore." },
     ],
   }),
   component: ContactPage,
@@ -24,7 +24,7 @@ function ContactPage() {
             <h1 className="mt-3 text-5xl md:text-6xl">Come <span className="text-primary">train</span><br/>with us.</h1>
           </div>
           <p className="md:col-span-5 self-end text-base leading-relaxed text-muted-foreground">
-            Tucked inside Gulfishan Colony Children's Park, our club is easy to
+            Tucked inside Samnabad Children's Park, our club is easy to
             find — and easier to walk into. Doors open at 8 PM, every evening.
           </p>
         </div>
@@ -35,7 +35,7 @@ function ContactPage() {
         <div className="md:col-span-5 space-y-10">
           <InfoBlock label="Address">
             <p>{BUSINESS.address}</p>
-            <p className="mt-1 text-sm text-muted-foreground">Located inside Gulfishan Colony Children's Park</p>
+            <p className="mt-1 text-sm text-muted-foreground">Located inside Samnabad Children's Park</p>
             <p className="mt-2 text-xs text-muted-foreground">Plus code: {BUSINESS.plusCode}</p>
           </InfoBlock>
 
@@ -75,7 +75,7 @@ function ContactPage() {
         <div className="md:col-span-7">
           <div className="lift overflow-hidden border border-border bg-card">
             <iframe
-              title="Fitness Fighter Club on Google Maps"
+              title="Shark Karate Gymnastic & Fitness Academy on Google Maps"
               src={BUSINESS.mapsEmbed}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -84,7 +84,7 @@ function ContactPage() {
             />
           </div>
           <div className="mt-5 grid gap-4 sm:grid-cols-3">
-            <DirCard step="01" title="Find the park" body="Head to Gulfishan Colony Children's Park, off the main colony road." />
+            <DirCard step="01" title="Find the park" body="Head to Samnabad Children's Park, off the main colony road." />
             <DirCard step="02" title="Look for the club" body="The training space is inside the park grounds — ask any local, they'll point you in." />
             <DirCard step="03" title="Walk in at 8 PM" body="Sessions start at 8:00 PM sharp. Wear something you can move in." />
           </div>
