@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "Shark Karate Gymnastic & Fitness Academy",
+  "name": "shark-karate-gymnastic-fitness-cademy",
   "compatibility_date": "2026-06-19",
   "observability": {
     "enabled": true
