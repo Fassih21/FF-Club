@@ -75,6 +75,7 @@ export function SiteHeader() {
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 rounded-sm bg-primary px-4 py-3 text-center font-display text-sm tracking-[0.18em] uppercase text-primary-foreground"
+              onClick={() => setOpen(false)}
             >
               WhatsApp Us
             </a>
