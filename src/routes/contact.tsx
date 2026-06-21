@@ -62,6 +62,12 @@ function ContactPage() {
               <li>
                 <a className="link-uline" href={BUSINESS.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
               </li>
+              <li>
+                <a className="link-uline" href={BUSINESS.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+              </li>
+              <li>
+                <a className="link-uline" href={BUSINESS.tiktok} target="_blank" rel="noopener noreferrer">TikTok</a>
+              </li>
             </ul>
           </InfoBlock>
 

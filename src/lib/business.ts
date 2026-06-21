@@ -13,6 +13,8 @@ export const BUSINESS = {
   ],
   rating: { value: 4.8, count: 14 },
   facebook: "https://facebook.com",
+  instagram: "https://www.instagram.com/hashmihashir?igsh=YjM0ajU2M3Z5NTQ1",
+  tiktok: "https://www.tiktok.com/@martialartsclubx",
   mapsEmbed:
     "https://maps.app.goo.gl/4o6YzjEAE2PAjFWZ6?g_st=aw",
       mapsLink:
