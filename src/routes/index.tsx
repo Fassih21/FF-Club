@@ -97,7 +97,7 @@ function HomePage() {
           <div className="grid grid-cols-3 gap-6 pt-4">
             <Stat n="4.8★" label="Google rating" />
             <Stat n="All ages" label="Kids & adults" />
-            <Stat n="7 nights" label="A week" />
+            <Stat n="5 nights" label="A week" />
           </div>
         </div>
       </section>

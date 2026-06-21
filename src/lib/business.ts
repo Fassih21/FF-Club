@@ -10,7 +10,8 @@ export const BUSINESS = {
   phone2: "+92 322 2221548",
   whatsapp: "923244032714",
   hours: [
-    { day: "Monday – Sunday", time: "Opens 8:00 PM" },
+    { day: "Monday – Sunday", time: "Slot 1: 7:15 PM – 8:15 PM" },
+    { day: "Monday – Sunday", time: "Slot 2: 8:30 PM – 9:30 PM" },
   ],
   rating: { value: 4.8, count: 14 },
   facebook: "https://facebook.com",
