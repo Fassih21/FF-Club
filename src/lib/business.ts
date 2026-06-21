@@ -7,7 +7,7 @@ export const BUSINESS = {
     "Samnabad Children's Park, Samnabad, Lahore, 54000, Pakistan",
   plusCode: "G7WV+F8 Lahore, Pakistan",
   phone: "+92 324 4032714",
-  whatsapp: "923244032714", // E.164 without + for wa.me
+  whatsapp: "923244032714",
   hours: [
     { day: "Monday – Sunday", time: "Opens 8:00 PM" },
   ],
@@ -15,10 +15,9 @@ export const BUSINESS = {
   facebook: "https://facebook.com",
   instagram: "https://www.instagram.com/hashmihashir?igsh=YjM0ajU2M3Z5NTQ1",
   tiktok: "https://www.tiktok.com/@martialartsclubx",
+  mapsLink: "https://maps.app.goo.gl/4o6YzjEAE2PAjFWZ6?g_st=aw",
   mapsEmbed:
-    "https://maps.app.goo.gl/4o6YzjEAE2PAjFWZ6?g_st=aw",
-      mapsLink:
-        "https://www.google.com/maps/search/?api=1&query=Shark+Karate+Gymnastic+%26+Fitness+Academy+Samnabad+Lahore",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.3448060191618!2d74.3010182!3d31.542150499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919030f4af90acd%3A0x529998c165794ab7!2sShark%20Karate%20Gymnastic%20%26%20Fitness%20Academy!5e0!3m2!1sen!2s!4v1782059560432!5m2!1sen!2s",
 };
 
 export const waLink = (msg = "Hello, I found your website and would like more information.") =>
