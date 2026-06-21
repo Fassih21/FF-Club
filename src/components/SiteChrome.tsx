@@ -1,3 +1,4 @@
+
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { BUSINESS, waLink } from "@/lib/business";
@@ -10,6 +11,7 @@ const nav = [
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+
   return (
     <header className="sticky top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
@@ -18,18 +20,13 @@ export function SiteHeader() {
             FF
           </span>
           <span className="font-display text-lg tracking-wide">
-            Shark Karate Gymnastic & Fitness Academy <span className="text-primary"></span>
+            Shark Karate Gymnastic & Fitness Academy
           </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
           {nav.map((n) => (
-            <Link
-              key={n.to}
-              to={n.to}
-              className="link-uline font-display text-sm tracking-[0.18em] uppercase"
-              activeProps={{ "data-active": "true" } as never}
-            >
+            <Link key={n.to} to={n.to} className="link-uline font-display text-sm tracking-[0.18em] uppercase">
               {n.label}
             </Link>
           ))}
@@ -97,9 +94,7 @@ export function SiteFooter() {
             </span>
             <span className="font-display text-lg">Shark Karate Gymnastic & Fitness Academy</span>
           </div>
-          <p className="mt-4 max-w-xs text-sm text-[oklch(0.78_0.012_70)]">
-            {BUSINESS.shortDesc}
-          </p>
+          <p className="mt-4 max-w-xs text-sm text-[oklch(0.78_0.012_70)]">{BUSINESS.shortDesc}</p>
         </div>
 
         <div>
@@ -116,6 +111,13 @@ export function SiteFooter() {
                 {BUSINESS.phone}
               </a>
             </li>
+            {BUSINESS.phone2 && (
+              <li>
+                <a className="hover:text-primary" href={`tel:${BUSINESS.phone2.replace(/\s/g, "")}`}>
+                  {BUSINESS.phone2}
+                </a>
+              </li>
+            )}
             <li>
               <a className="hover:text-primary" href={waLink()} target="_blank" rel="noopener noreferrer">
                 WhatsApp chat

@@ -7,6 +7,7 @@ export const BUSINESS = {
     "Samnabad Children's Park, Samnabad, Lahore, 54000, Pakistan",
   plusCode: "G7WV+F8 Lahore, Pakistan",
   phone: "+92 324 4032714",
+  phone2: "+92 322 2221548",
   whatsapp: "923244032714",
   hours: [
     { day: "Monday – Sunday", time: "Opens 8:00 PM" },
