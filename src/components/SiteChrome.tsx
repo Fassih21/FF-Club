@@ -154,9 +154,9 @@ function HomePage() {
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          <ServiceCard img={kidsImg} title="Kickboxing" body="Stance, footwork, pad work and controlled sparring. For all levels." />
-          <ServiceCard img={glovesImg} title="Adult Fitness" body="Strength conditioning, bag rounds and combat-based cardio for grown-ups." />
-          <ServiceCard img={heroImg} title="Kids Martial Arts" body="Confidence, focus, respect. A safe place for kids to channel their energy." />
+          <ServiceCard img={heroImg} title="Karate" body="Traditional karate covering stances, kata, kumite and striking techniques. Builds discipline and real combat awareness from the ground up." />
+          <ServiceCard img={kidsImg} title="Gymnastics" body="Balance, body control, tumbling and strength fundamentals. Great as a standalone discipline and as a base for any martial art." />
+          <ServiceCard img={glovesImg} title="Physical Fitness" body="Combat-based strength and conditioning for all levels. Bag rounds, circuits and mobility work — structured to build strength and endurance." />
         </div>
       </section>
 
