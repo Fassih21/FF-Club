@@ -33,7 +33,8 @@ export function SiteHeader() {
               {n.label}
             </Link>
           ))}
-          
+
+          <a
             href={waLink()}
             target="_blank"
             rel="noopener noreferrer"
@@ -68,7 +69,8 @@ export function SiteHeader() {
                 {n.label}
               </Link>
             ))}
-            
+
+            <a
               href={waLink()}
               target="_blank"
               rel="noopener noreferrer"
