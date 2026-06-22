@@ -5,7 +5,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Visit & Contact — Shark Karate Gymnastic & Fitness Academy, Samnabad Lahore" },
-      { name: "description", content: "Find Shark Karate Gymnastic & Fitness Academy at Samnabad Children's Park, Lahore. Hours, directions, phone and WhatsApp." },
+      { name: "description", content: "Find Shark Karate Gymnastic & Fitness Academy near Kim's Restaurant, Samanabad Main Boulevard, Lahore. Hours, directions, phone and WhatsApp." },
       { property: "og:title", content: "Visit Shark Karate Gymnastic & Fitness Academy, Lahore" },
       { property: "og:description", content: "Address, hours, map and WhatsApp contact for Shark Karate Gymnastic & Fitness Academy in Samnabad, Lahore." },
     ],
@@ -24,8 +24,9 @@ function ContactPage() {
             <h1 className="mt-3 text-5xl md:text-6xl">Come <span className="text-primary">train</span><br/>with us.</h1>
           </div>
           <p className="md:col-span-5 self-end text-base leading-relaxed text-muted-foreground">
-            Tucked inside Samnabad Children's Park, our club is easy to
-            find — and easier to walk into. Doors open at 8 PM, every evening.
+            Located on Samanabad Main Boulevard near Kim's Restaurant — easy to
+            find and easier to walk into. Two slots available Mon–Fri:
+            7:15–8:15 PM and 8:30–9:30 PM.
           </p>
         </div>
       </section>
@@ -35,26 +36,28 @@ function ContactPage() {
         <div className="md:col-span-5 space-y-10">
           <InfoBlock label="Address">
             <p>{BUSINESS.address}</p>
-            <p className="mt-1 text-sm text-muted-foreground">Located inside Samnabad Children's Park</p>
             <p className="mt-2 text-xs text-muted-foreground">Plus code: {BUSINESS.plusCode}</p>
           </InfoBlock>
 
           <InfoBlock label="Hours">
             <ul className="space-y-1.5">
-              {BUSINESS.hours.map((h) => (
-                <li key={h.day} className="flex items-baseline justify-between gap-4">
+              {BUSINESS.hours.map((h, i) => (
+                <li key={i} className="flex items-baseline justify-between gap-4">
                   <span>{h.day}</span>
                   <span className="font-display tracking-[0.12em] text-sm text-primary">{h.time}</span>
                 </li>
               ))}
             </ul>
-            <p className="mt-3 text-xs uppercase tracking-[0.18em] text-muted-foreground">Currently closed · Opens 8 PM</p>
+            <p className="mt-3 text-xs uppercase tracking-[0.18em] text-muted-foreground">Mon – Fri only · Saturday & Sunday closed</p>
           </InfoBlock>
 
           <InfoBlock label="Contact">
             <ul className="space-y-2">
               <li>
                 <a className="link-uline" href={`tel:${BUSINESS.phone.replace(/\s/g, "")}`}>{BUSINESS.phone}</a>
+              </li>
+              <li>
+                <a className="link-uline" href={`tel:${BUSINESS.phone2.replace(/\s/g, "")}`}>{BUSINESS.phone2}</a>
               </li>
               <li>
                 <a className="link-uline" href={waLink()} target="_blank" rel="noopener noreferrer">WhatsApp the coach</a>
@@ -90,9 +93,9 @@ function ContactPage() {
             />
           </div>
           <div className="mt-5 grid gap-4 sm:grid-cols-3">
-            <DirCard step="01" title="Find the park" body="Head to Samnabad Children's Park, off the main colony road." />
-            <DirCard step="02" title="Look for the club" body="The training space is inside the park grounds — ask any local, they'll point you in." />
-            <DirCard step="03" title="Walk in at 8 PM" body="Sessions start at 8:00 PM sharp. Wear something you can move in." />
+            <DirCard step="01" title="Find the boulevard" body="Head to Samanabad Main Boulevard — we're near the first roundabout, next to Kim's Restaurant." />
+            <DirCard step="02" title="Look for the club" body="We're easy to spot on the main road — ask any local and they'll point you in." />
+            <DirCard step="03" title="Pick your slot" body="Slot 1: 7:15–8:15 PM · Slot 2: 8:30–9:30 PM. Mon–Fri only. Wear something you can move in." />
           </div>
         </div>
       </section>

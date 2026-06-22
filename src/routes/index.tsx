@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Shark Karate Gymnastic & Fitness Academy — Kickboxing & Fitness, Samnabad Lahore" },
-      { name: "description", content: "Coach-led kickboxing, gymnastics and fitness training for kids and adults at Samnabad, Lahore. Rated 4.8★ on Google. Walk in tonight at 8 PM." },
+      { name: "description", content: "Coach-led kickboxing, gymnastics and fitness training for kids and adults at Samnabad, Lahore. Rated 5.0★ on Google. Two slots: 7:15–8:15 PM & 8:30–9:30 PM, Mon–Fri." },
       { property: "og:title", content: "Shark Karate Gymnastic & Fitness Academy — Lahore" },
       { property: "og:description", content: "Train hard. Hit harder. Kickboxing, gymnastics and fitness in Samnabad, Lahore." },
       { property: "og:image", content: heroImg },
@@ -171,8 +171,8 @@ function HomePage() {
             <p className="tag text-[oklch(0.95_0.01_70)]">05 / Walk Through Our Doors</p>
             <h2 className="mt-3 text-4xl md:text-5xl">Your first class is the hardest.<br/>We'll make it count.</h2>
             <p className="mt-5 max-w-xl text-[oklch(0.95_0.01_70/0.92)]">
-              WhatsApp us your name and age — we'll send timings and what to bring.
-              Doors open at 8 PM, every evening.
+              WhatsApp us your name and age — we'll send you the slot details and what to bring.
+              Two sessions Mon–Fri: 7:15–8:15 PM and 8:30–9:30 PM.
             </p>
           </div>
           <div className="md:col-span-4 flex flex-col gap-3">
@@ -216,7 +216,7 @@ const WHY = [
 ];
 
 const REVIEWS = [
-  { name: "Zeeshan Ahmed (Google Local Guide)", quote: "Hardworking instructor. Good to see young children learning martial arts. And remember — say no to drugs." },
-  { name: "Sadaf Javed", quote: "Thanks for all your efforts." },
-  { name: "Khan (Local Guide)", quote: "How do I join this as an adult? — Owner replied within hours on WhatsApp." },
+  { name: "Waqas Rana", quote: "The best place created in Samnabad Lahore Pakistan with full energy and the staff is too friendly." },
+  { name: "Maryam Khalid", quote: "My kids really enjoy the training. Great work." },
+  { name: "Asim Ismail", quote: "One of the best clubs in Lahore." },
 ];
