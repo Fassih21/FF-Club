@@ -3,6 +3,7 @@ import { BUSINESS, waLink } from "@/lib/business";
 import heroImg from "@/assets/hero-fighter.jpg";
 import kidsImg from "@/assets/kids-class.jpg";
 import glovesImg from "@/assets/gloves.jpg";
+import gymImg from "@/assets/gymnastics.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -132,11 +133,13 @@ function HomePage() {
           </div>
           <Link to="/services" className="link-uline font-display text-sm tracking-[0.18em] uppercase">All training →</Link>
         </div>
-
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           <ServiceCard img={kidsImg} title="Kickboxing" body="Stance, footwork, pad work and controlled sparring. For all levels." />
           <ServiceCard img={glovesImg} title="Adult Fitness" body="Strength conditioning, bag rounds and combat-based cardio for grown-ups." />
           <ServiceCard img={heroImg} title="Kids Martial Arts" body="Confidence, focus, respect. A safe place for kids to channel their energy." />
+          <ServiceCard img={heroImg} title="Karate" body="Traditional striking, forms and discipline — the foundation every fighter starts with." />
+          <ServiceCard img={gymImg} title="Gymnastics" body="Flexibility, balance and body control drills, built for kids and adults alike." />
+          <ServiceCard img={kidsImg} title="Self-Defence" body="Practical, real-world techniques to protect yourself with confidence." />
         </div>
       </section>
 
@@ -145,7 +148,6 @@ function HomePage() {
         <div className="mx-auto max-w-6xl px-5">
           <p className="tag text-[oklch(0.85_0.12_30)]">04 / In Their Words</p>
           <h2 className="mt-3 text-4xl md:text-5xl">Trusted by the<br/>neighbourhood.</h2>
-
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {REVIEWS.map((r) => (
               <figure key={r.name} className="border border-white/10 bg-[oklch(0.22_0.018_50)] p-7">
