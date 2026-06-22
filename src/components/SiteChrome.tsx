@@ -109,12 +109,14 @@ export function SiteFooter() {
             <li>
               <a className="hover:text-primary" href={`tel:${BUSINESS.phone.replace(/\s/g, "")}`}>
                 {BUSINESS.phone}
+                Hashir Hashmi
               </a>
             </li>
             {BUSINESS.phone2 && (
               <li>
                 <a className="hover:text-primary" href={`tel:${BUSINESS.phone2.replace(/\s/g, "")}`}>
                   {BUSINESS.phone2}
+                  Asim Ismail
                 </a>
               </li>
             )}
@@ -128,7 +130,7 @@ export function SiteFooter() {
                 Facebook
               </a>
             </li>
-            <li className="text-[oklch(0.78_0.012_70)]">Opens daily 8:00 PM</li>
+            <li className="text-[oklch(0.78_0.012_70)]">Opens at 7:00 PM</li>
           </ul>
         </div>
       </div>
