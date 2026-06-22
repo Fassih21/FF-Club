@@ -109,14 +109,14 @@ export function SiteFooter() {
             <li>
               <a className="hover:text-primary" href={`tel:${BUSINESS.phone.replace(/\s/g, "")}`}>
                 {BUSINESS.phone}
-                Hashir Hashmi
+                    (Hashir Hashmi)
               </a>
             </li>
             {BUSINESS.phone2 && (
               <li>
                 <a className="hover:text-primary" href={`tel:${BUSINESS.phone2.replace(/\s/g, "")}`}>
                   {BUSINESS.phone2}
-                  Asim Ismail
+                      (Asim Ismail)
                 </a>
               </li>
             )}
