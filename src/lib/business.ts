@@ -4,14 +4,14 @@ export const BUSINESS = {
   shortDesc:
     "A neighbourhood martial arts & fitness club in Lahore — coaching kids and adults in kickboxing, gymnastics and disciplined strength training.",
   address:
-    "Samnabad Children's Park, Samnabad, Lahore, 54000, Pakistan",
+    "Near first, round-about, Samanabad Main Boulevard, near Kim's restaurant, Samanabad Town, Lahore, 54000, Pakistan",
   plusCode: "G7WV+F8 Lahore, Pakistan",
   phone: "+92 324 4032714",
   phone2: "+92 322 2221548",
   whatsapp: "923244032714",
   hours: [
-    { day: "Monday – Sunday", time: "Slot 1: 7:15 PM – 8:15 PM" },
-    { day: "Monday – Sunday", time: "Slot 2: 8:30 PM – 9:30 PM" },
+    { day: "Monday – Friday", time: "Slot 1: 7:15 PM – 8:15 PM" },
+    { day: "Monday – Friday", time: "Slot 2: 8:30 PM – 9:30 PM" },
   ],
   rating: { value: 4.8, count: 14 },
   facebook: "https://facebook.com",
