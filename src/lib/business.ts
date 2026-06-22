@@ -2,7 +2,7 @@ export const BUSINESS = {
   name: "Shark Karate Gymnastic & Fitness Academy",
   tagline: "Train Hard. Hit Harder. Live Stronger.",
   shortDesc:
-    "A neighbourhood martial arts & fitness club in Lahore — coaching kids and adults in kickboxing, gymnastics and disciplined strength training.",
+    "A neighbourhood martial arts & fitness club in Lahore — coaching kids and adults in karate, self-defense, gymnastics and disciplined strength training.",
   address:
     "Near first round-about, Samanabad Main Boulevard, near Kim's Restaurant, Samanabad Town, Lahore 54000, Pakistan",
   plusCode: "G7WV+F8 Lahore, Pakistan",

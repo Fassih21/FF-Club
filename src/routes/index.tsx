@@ -8,10 +8,10 @@ import gymImg from "@/assets/gymnastics.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Shark Karate Gymnastic & Fitness Academy — Kickboxing & Fitness, Samnabad Lahore" },
-      { name: "description", content: "Coach-led kickboxing, gymnastics and fitness training for kids and adults at Samnabad, Lahore. Rated 5.0★ on Google. Two slots: 7:15–8:15 PM & 8:30–9:30 PM, Mon–Fri." },
+      { title: "Shark Karate Gymnastic & Fitness Academy — Karate & Fitness, Samnabad Lahore" },
+      { name: "description", content: "Coach-led karate, gymnastics and fitness training for kids and adults at Samnabad, Lahore. Rated 5.0★ on Google. Two slots: 7:15–8:15 PM & 8:30–9:30 PM, Mon–Fri." },
       { property: "og:title", content: "Shark Karate Gymnastic & Fitness Academy — Lahore" },
-      { property: "og:description", content: "Train hard. Hit harder. Kickboxing, gymnastics and fitness in Samnabad, Lahore." },
+      { property: "og:description", content: "Train hard. Hit harder. Karate, gymnastics and fitness in Samnabad, Lahore." },
       { property: "og:image", content: heroImg },
       { name: "twitter:image", content: heroImg },
     ],
@@ -90,7 +90,7 @@ function HomePage() {
             that builds character.
           </p>
           <p>
-            Today we coach beginners and seasoned fighters across kickboxing,
+            Today we coach beginners and seasoned fighters across karate, self-defense,
             gymnastics, and conditioning. No flashy promises. Just consistent
             training, an instructor who shows up every evening, and a community
             that believes in <em>"say no to drugs, say yes to discipline."</em>
